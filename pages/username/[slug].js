@@ -15,7 +15,7 @@ const Profile = () => {
            <div className="profile m-4">
             <div className="flex items-center space-x-2">
               <div className='w-[50px] h-[50px] rounded-full flex justify-center items-center bg-red-600 text-white'>A</div>
-              <div><div>{slug.toUpperCase()}</div><div className='text-gray-700'>@amritpreetsingh012</div></div>
+              <div><div>{slug}</div><div className='text-gray-700'>@amritpreetsingh012</div></div>
             </div>
            </div>
            <div className='flex justify-start space-x-7'>
