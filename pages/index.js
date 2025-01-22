@@ -1,8 +1,8 @@
 import Navbar from "@/components/Navbar";
-import Link from "next/link";
 import { FaRegHeart } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
 import { MdOutlineComment } from "react-icons/md";
+
 
 
 export default function Home() {

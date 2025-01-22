@@ -13,8 +13,8 @@ const Navbar = () => {
       </div>
 
       <div className='flex space-x-6'>
-        <div className='cursor-pointer '>Login</div>
-        <div className='cursor-pointer '>SignUp</div>
+        <Link href={"/login"}><div className='cursor-pointer '>Login</div></Link>
+        <Link href={"/signup"}><div className='cursor-pointer '>SignUp</div></Link>
       </div>
     </div>
   )
